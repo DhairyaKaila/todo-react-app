@@ -15,7 +15,7 @@ const TodoInputField = ({ addTask }) => {
                     );
                 }
                 else{
-                    alert("plss enter value.");
+                    alert("Pls Enter value.");
                 }
 
                 document.getElementById("textInput").value = "";
