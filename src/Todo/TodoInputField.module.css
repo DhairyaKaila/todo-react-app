@@ -1,0 +1,24 @@
+.todo-input-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+
+    input{
+        padding-left: 10px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    button{
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        width: 70px;
+        height: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
